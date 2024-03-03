@@ -1,0 +1,76 @@
+body {
+    background-color: #23262e;
+    color: white;
+}
+.center-container {
+    font-family: "Victor Mono", monospace;
+    width: 500px;
+    height: 230px;
+    top: 50%;
+    transform: translate(50%, -50%);
+    position: absolute;
+    background-color: #14161b;
+    padding: 10px;
+    box-shadow: 0px 0px 8px 2px #14161b;
+}
+#meow {
+    height: 220px;
+    outline: white;
+    border: 5px solid white;
+    right: 0px!important;
+}
+#welcome {
+    border-bottom: 5px solid white;
+    left: 135px;
+    top: -10px;
+    position: absolute;
+    padding-left:20px;
+    padding-right: 100px;
+}
+#datetime {
+    left: 125px;
+    top: -20px;
+}
+#Media {
+    top: 60px;
+    left: 300px;
+    position: absolute;
+}
+#General {
+    top: 60px;
+    left: 150px;
+    position: absolute;
+}
+#slmda {
+    width: 120px;
+    height: 120px;
+    top: 98px;
+    left: 155px;
+    position: absolute;
+}
+#slgen {
+    width: 150px;
+    height: 120px;
+    top: 98px;
+    left: 305px;
+    position: absolute;
+}
+#slgen a {
+    font-size: 12pt;
+    color: lightgray;
+    text-decoration: none!important;
+}
+#slmda a {
+    font-size: 12pt;
+    color:lightgray;
+    text-decoration: none!important;
+    
+}
+#slmda a:hover {
+    color:aqua;
+     font-weight: 700;
+}
+#slgen a:hover {
+    color:aqua;
+    font-weight: 700;
+}
